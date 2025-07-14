@@ -1,0 +1,41 @@
+name: kulir_plus
+description: A Smart AC Controlling App.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  provider: ^6.1.5
+  convex_bottom_bar: ^3.2.0
+  flutter_svg: ^2.2.0
+  lottie: ^3.3.1
+  table_calendar: ^3.2.0
+  intl: ^0.20.2
+  flutter_colorpicker: ^1.1.0
+  animations: ^2.0.11
+  sleek_circular_slider: ^2.1.0
+  fl_chart: ^1.0.0
+  curved_navigation_bar: ^1.0.6
+  animated_text_kit: ^4.2.3
+  flutter_animate: ^4.5.2
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/lottie-files/
+    - assets/room-icons/
+    - assets/room-images/
+    - assets/logo/
