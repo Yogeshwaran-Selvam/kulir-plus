@@ -14,7 +14,7 @@ KULIR+ offers an intuitive interface for managing AC units with scheduling, real
 
 Watch a quick demo of KULIR+ in action:
 
-![Preview](/demo.mp4)
+![Preview](/demo.gif)
 
 ---
 
