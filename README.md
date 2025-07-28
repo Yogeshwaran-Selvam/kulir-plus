@@ -20,6 +20,15 @@ Watch a quick demo of KULIR+ in action:
 
 ## 🧩 Screens & Features
 
+### 🏠 HomePage
+- The main dashboard and navigation hub of the app, built with a high-performance `CustomScrollView`.
+- Features custom horizontal sliding animations to switch between **Home**, **Schedules**, and **Menu** sections.
+- **Components**:
+  - `CustomAppBar`: A floating `SliverAppBar` with an integrated `WeatherBar` and theme toggle.
+  - `AllRooms`: An expandable grid of all AC units with rich animations (`OpenContainer`).
+  - `MonthlyUsage`: A cost analysis section with an auto-toggling currency display (USD/INR).
+  - `BottomNavigator`: A custom curved navigation bar (`ConvexAppBar`) that controls page transitions.
+  
 ### 🔧 `AcDetails` Screen
 - Animated `PageView` with 4 tabs:
   1. **SchedulesView**: Manage AC schedules.
