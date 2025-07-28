@@ -68,22 +68,6 @@ Watch a quick demo of KULIR+ in action:
 
 ---
 
-## 🧱 Reusable Components
-
-### 🔁 `ScheduleTile`
-- Displays: Mode, Temp, Time, Recurrence.
-- Subwidgets: `_InfoRow`, `_ScheduleInfoChip`.
-
-### 🌡️ `TemperatureSlider`
-- `SleekCircularSlider` for 15°C–30°C range.
-- Live temp via `ACProvider`.
-
-### 🎛️ `UseButtons`
-- Actions: Timer, Speed, Swing.
-- Styled with reusable generator.
-
----
-
 ## 🛠 Tech Stack
 - **State**: `Provider` + `Selector`.
 - **UI Libs**: `flutter_animate`, `fl_chart`, `lottie`, `curved_navigation_bar`.
